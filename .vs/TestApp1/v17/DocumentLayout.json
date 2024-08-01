@@ -1,0 +1,65 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\chadt\\source\\repos\\TestApp\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{B58208FD-31CD-48F3-8DB2-9E7BC4843D95}|TestApp1\\TestApp1.csproj|c:\\users\\chadt\\source\\repos\\testapp\\testapp1\\components\\pages\\companies.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B58208FD-31CD-48F3-8DB2-9E7BC4843D95}|TestApp1\\TestApp1.csproj|solutionrelative:testapp1\\components\\pages\\companies.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B58208FD-31CD-48F3-8DB2-9E7BC4843D95}|TestApp1\\TestApp1.csproj|c:\\users\\chadt\\source\\repos\\testapp\\testapp1\\companiestablesetup.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}",
+      "RelativeMoniker": "D:0:0:{B58208FD-31CD-48F3-8DB2-9E7BC4843D95}|TestApp1\\TestApp1.csproj|solutionrelative:testapp1\\companiestablesetup.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B58208FD-31CD-48F3-8DB2-9E7BC4843D95}|TestApp1\\TestApp1.csproj|c:\\users\\chadt\\source\\repos\\testapp\\testapp1\\companiestablesetup.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|CodeFrame",
+      "RelativeMoniker": "D:0:0:{B58208FD-31CD-48F3-8DB2-9E7BC4843D95}|TestApp1\\TestApp1.csproj|solutionrelative:testapp1\\companiestablesetup.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|CodeFrame"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B58208FD-31CD-48F3-8DB2-9E7BC4843D95}|TestApp1\\TestApp1.csproj|c:\\users\\chadt\\source\\repos\\testapp\\testapp1\\companiestablesetup.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|ResultFrame",
+      "RelativeMoniker": "D:0:0:{B58208FD-31CD-48F3-8DB2-9E7BC4843D95}|TestApp1\\TestApp1.csproj|solutionrelative:testapp1\\companiestablesetup.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|ResultFrame"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0174dea2-fdbe-4ef1-8f99-c0beae78880f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Companies.razor",
+              "DocumentMoniker": "C:\\Users\\chadt\\source\\repos\\TestApp\\TestApp1\\Components\\Pages\\Companies.razor",
+              "RelativeDocumentMoniker": "TestApp1\\Components\\Pages\\Companies.razor",
+              "ToolTip": "C:\\Users\\chadt\\source\\repos\\TestApp\\TestApp1\\Components\\Pages\\Companies.razor",
+              "RelativeToolTip": "TestApp1\\Components\\Pages\\Companies.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACgAAAAwAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-01T22:14:53.527Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CompaniesTableSetup.sql ",
+              "DocumentMoniker": "C:\\Users\\chadt\\source\\repos\\TestApp\\TestApp1\\CompaniesTableSetup.sql",
+              "RelativeDocumentMoniker": "TestApp1\\CompaniesTableSetup.sql",
+              "ToolTip": "C:\\Users\\chadt\\source\\repos\\TestApp\\TestApp1\\CompaniesTableSetup.sql",
+              "RelativeToolTip": "TestApp1\\CompaniesTableSetup.sql",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2024-08-01T22:10:33.848Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

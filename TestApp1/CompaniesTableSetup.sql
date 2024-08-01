@@ -1,4 +1,20 @@
-﻿CREATE TABLE Companies (
+﻿-- Create a new database called 'StatewideDevDb1'
+-- Connect to the 'master' database to run this snippet
+USE master
+GO
+-- Create the new database if it does not exist already
+IF NOT EXISTS (
+    SELECT [name]
+        FROM sys.databases
+        WHERE [name] = N'TestApp1Db'
+)
+CREATE DATABASE TestApp1Db
+GO
+
+USE TestApp1Db
+GO
+
+CREATE TABLE Companies (
     Id INT IDENTITY(1,1) CONSTRAINT PK_Companies PRIMARY KEY,
     CompanyAltId UNIQUEIDENTIFIER CONSTRAINT DF_Companies_CompanyAltId DEFAULT NEWID() CONSTRAINT UQ_Companies_CompanyAltId UNIQUE,
     CompanyCode NVARCHAR(50) CONSTRAINT UQ_Companies_CompanyCode UNIQUE,
@@ -8,9 +24,7 @@
     State NVARCHAR(50),
     PostalCode NVARCHAR(20)
 )
-
-
-drop table Companies
+GO
 
 -- Example 1
 INSERT INTO Companies (CompanyCode, Name, StreetAddress, City, State, PostalCode)
@@ -36,6 +50,4 @@ VALUES ('COMP005', 'Financial Advisors Group', '6789 Birch Lane', 'Hilltown', 'P
 INSERT INTO Companies (CompanyCode, Name, StreetAddress, City, State, PostalCode)
 VALUES ('COMP006', 'Innovative Solutions Inc.', '1357 Cedar Avenue', 'Innovation City', 'CA', '90001');
 
-
-
-select * from TestApp1Db.dbo.Companies
+GO

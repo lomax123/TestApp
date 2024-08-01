@@ -14,26 +14,44 @@
 }
 else
 {
-    <QuickGrid Items="CompaniesDtos">
-        <PropertyColumn Property="@(c => c.Id)" Title="Id" Sortable="true" />
-        <PropertyColumn Property="@(c => c.CompanyAltId)" Title="CompanyAltId" />
-        <PropertyColumn Property="@(c => c.CompanyCode)" Title="CompanyCode" />
-        <PropertyColumn Property="@(c => c.Name)" Title="Name" />
-        <PropertyColumn Property="@(c => c.StreetAddress)" Title="StreetAddress" />
-        <PropertyColumn Property="@(c => c.City)" Title="City" />
-        <PropertyColumn Property="@(c => c.State)" Title="State" />
-        <PropertyColumn Property="@(c => c.PostalCode)" Title="PostalCode" />
-    </QuickGrid>
+    <table class="table table-striped">
+        <thead>
+            <tr>
+                <th>Id</th>
+                <th>CompanyAltId</th>
+                <th>CompanyCode</th>
+                <th>Name</th>
+                <th>StreetAddress</th>
+                <th>City</th>
+                <th>State</th>
+                <th>PostalCode</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var company in CompaniesDtos)
+            {
+                <tr>
+                    <td>@company.Id</td>
+                    <td>@company.CompanyAltId</td>
+                    <td>@company.CompanyCode</td>
+                    <td>@company.Name</td>
+                    <td>@company.StreetAddress</td>
+                    <td>@company.City</td>
+                    <td>@company.State</td>
+                    <td>@company.PostalCode</td>
+                </tr>
+            }
+        </tbody>
+    </table>
 }
 
 @code {
 
-    private IQueryable<CompanyDto>? CompaniesDtos { get; set; }
+    private List<CompanyDto>? CompaniesDtos { get; set; }
 
     protected override async Task OnInitializedAsync()
     {
-        var items = await DbContext.Database.SqlQuery<CompanyDto>($"SELECT Id, CompanyAltId, CompanyCode, Name, StreetAddress, City, State, PostalCode FROM Companies").ToListAsync();
-        CompaniesDtos = items.AsQueryable();
+        CompaniesDtos = await DbContext.Database.SqlQuery<CompanyDto>($"SELECT Id, CompanyAltId, CompanyCode, Name, StreetAddress, City, State, PostalCode FROM Companies").ToListAsync();
     }
 
     public class CompanyDto
