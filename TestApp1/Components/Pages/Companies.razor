@@ -1,0 +1,65 @@
+﻿@page "/companies"
+@using Microsoft.EntityFrameworkCore
+@using TestApp1.Data
+@inject ApplicationDbContext DbContext
+
+<h3>Companies</h3>
+
+@if (CompaniesDtos is null)
+{
+    <p>Loading...</p>
+}
+else
+{
+    <table class="table table-striped">
+        <thead>
+        <tr>
+            <th>Id</th>
+            <th>CompanyAltId</th>
+            <th>CompanyCode</th>
+            <th>Name</th>
+            <th>StreetAddress</th>
+            <th>City</th>
+            <th>State</th>
+            <th>PostalCode</th>
+        </tr>
+        </thead>
+        <tbody>
+        @foreach (var company in CompaniesDtos)
+        {
+            <tr>
+                <td>@company.Id</td>
+                <td>@company.CompanyAltId</td>
+                <td>@company.CompanyCode</td>
+                <td>@company.Name</td>
+                <td>@company.StreetAddress</td>
+                <td>@company.City</td>
+                <td>@company.State</td>
+                <td>@company.PostalCode</td>
+            </tr>
+        }
+        </tbody>
+    </table>
+}
+
+@code {
+
+    private List<CompanyDto>? CompaniesDtos { get; set; }
+
+    protected override async Task OnInitializedAsync()
+    {
+        CompaniesDtos = await DbContext.Database.SqlQuery<CompanyDto>($"SELECT Id, CompanyAltId, CompanyCode, Name, StreetAddress, City, State, PostalCode FROM Companies").ToListAsync();
+    }
+
+    public class CompanyDto
+    {
+        public int Id { get; set; }
+        public Guid CompanyAltId { get; set; }
+        public string? CompanyCode { get; set; }
+        public string? Name { get; set; }
+        public string? StreetAddress { get; set; }
+        public string? City { get; set; }
+        public string? State { get; set; }
+        public string? PostalCode { get; set; }
+    }
+}
