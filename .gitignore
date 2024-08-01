@@ -1,3 +1,5 @@
+.vs/
+
 # Ignore bin and obj directories in TestApp1
 TestApp1/bin/
 TestApp1/obj/
