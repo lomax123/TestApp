@@ -8,6 +8,8 @@
     ".NETCoreApp,Version=v8.0": {
       "TestApp1/1.0.0": {
         "dependencies": {
+          "Microsoft.AspNetCore.Components.QuickGrid": "8.0.7",
+          "Microsoft.AspNetCore.Components.QuickGrid.EntityFrameworkAdapter": "8.0.7",
           "Microsoft.AspNetCore.Components.WebAssembly.Server": "8.0.7",
           "Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore": "8.0.7",
           "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "8.0.7",
@@ -106,6 +108,29 @@
         "runtime": {
           "lib/net8.0/Microsoft.AspNetCore.Components.Forms.dll": {
             "assemblyVersion": "8.0.0.0",
+            "fileVersion": "8.0.724.31402"
+          }
+        }
+      },
+      "Microsoft.AspNetCore.Components.QuickGrid/8.0.7": {
+        "dependencies": {
+          "Microsoft.AspNetCore.Components.Web": "8.0.7"
+        },
+        "runtime": {
+          "lib/net8.0/Microsoft.AspNetCore.Components.QuickGrid.dll": {
+            "assemblyVersion": "8.0.7.0",
+            "fileVersion": "8.0.724.31402"
+          }
+        }
+      },
+      "Microsoft.AspNetCore.Components.QuickGrid.EntityFrameworkAdapter/8.0.7": {
+        "dependencies": {
+          "Microsoft.AspNetCore.Components.QuickGrid": "8.0.7",
+          "Microsoft.EntityFrameworkCore": "8.0.7"
+        },
+        "runtime": {
+          "lib/net8.0/Microsoft.AspNetCore.Components.QuickGrid.EntityFrameworkAdapter.dll": {
+            "assemblyVersion": "8.0.7.0",
             "fileVersion": "8.0.724.31402"
           }
         }
@@ -1203,6 +1228,20 @@
       "sha512": "sha512-W6B1ARyh+vOtBbAYap1ekDIA+8U3N6hwnli6gG3WYAOmC+4bFlbfpoVoQvpLVTaFH2CSCwEM4NAA16dmTFv3kA==",
       "path": "microsoft.aspnetcore.components.forms/8.0.7",
       "hashPath": "microsoft.aspnetcore.components.forms.8.0.7.nupkg.sha512"
+    },
+    "Microsoft.AspNetCore.Components.QuickGrid/8.0.7": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-p11XtiMpTuzL+awFMuOonzpO7Mb7j7AwNJrEzeXnw01IOLiQe2YiFXJWU2CFwrWA20KnT64aeE674fZpMx9YwQ==",
+      "path": "microsoft.aspnetcore.components.quickgrid/8.0.7",
+      "hashPath": "microsoft.aspnetcore.components.quickgrid.8.0.7.nupkg.sha512"
+    },
+    "Microsoft.AspNetCore.Components.QuickGrid.EntityFrameworkAdapter/8.0.7": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-72J6vZW4lx/OEmeq2UApGsgZD4y7g7zbQjlbnI116sGQREtWdawaYEJ6gdOK1zWebeHF8nD5mfW7pRxA6PODBQ==",
+      "path": "microsoft.aspnetcore.components.quickgrid.entityframeworkadapter/8.0.7",
+      "hashPath": "microsoft.aspnetcore.components.quickgrid.entityframeworkadapter.8.0.7.nupkg.sha512"
     },
     "Microsoft.AspNetCore.Components.Web/8.0.7": {
       "type": "package",

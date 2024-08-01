@@ -1036,3 +1036,4 @@ C:\Users\lomaxc\source\repos\Projects\TestApp1\TestApp1.Client\obj\Debug\net8.0\
 C:\Users\lomaxc\source\repos\Projects\TestApp1\TestApp1.Client\obj\Debug\net8.0\refint\TestApp1.Client.dll
 C:\Users\lomaxc\source\repos\Projects\TestApp1\TestApp1.Client\obj\Debug\net8.0\TestApp1.Client.pdb
 C:\Users\lomaxc\source\repos\Projects\TestApp1\TestApp1.Client\obj\Debug\net8.0\ref\TestApp1.Client.dll
+C:\Users\lomaxc\source\repos\Projects\TestApp1\TestApp1.Client\obj\Debug\net8.0\TestApp1.Client.sourcelink.json

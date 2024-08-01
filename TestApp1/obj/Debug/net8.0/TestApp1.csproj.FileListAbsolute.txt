@@ -169,3 +169,6 @@ C:\Users\lomaxc\source\repos\Projects\TestApp1\TestApp1\obj\Debug\net8.0\TestApp
 C:\Users\lomaxc\source\repos\Projects\TestApp1\TestApp1\obj\Debug\net8.0\TestApp1.genruntimeconfig.cache
 C:\Users\lomaxc\source\repos\Projects\TestApp1\TestApp1\obj\Debug\net8.0\ref\TestApp1.dll
 C:\Users\lomaxc\source\repos\Projects\TestApp1\TestApp1\bin\Debug\net8.0\System.Text.Json.dll
+C:\Users\lomaxc\source\repos\Projects\TestApp1\TestApp1\obj\Debug\net8.0\TestApp1.sourcelink.json
+C:\Users\lomaxc\source\repos\Projects\TestApp1\TestApp1\bin\Debug\net8.0\Microsoft.AspNetCore.Components.QuickGrid.dll
+C:\Users\lomaxc\source\repos\Projects\TestApp1\TestApp1\bin\Debug\net8.0\Microsoft.AspNetCore.Components.QuickGrid.EntityFrameworkAdapter.dll
