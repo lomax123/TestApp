@@ -3,6 +3,26 @@
   "WorkspaceRootPath": "C:\\Users\\chadt\\source\\repos\\TestApp\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{F1D44045-2854-4596-9D86-3C65E244542C}|TestApp1.Client\\TestApp1.Client.csproj|c:\\users\\chadt\\source\\repos\\testapp\\testapp1.client\\pages\\auth.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F1D44045-2854-4596-9D86-3C65E244542C}|TestApp1.Client\\TestApp1.Client.csproj|solutionrelative:testapp1.client\\pages\\auth.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B58208FD-31CD-48F3-8DB2-9E7BC4843D95}|TestApp1\\TestApp1.csproj|c:\\users\\chadt\\source\\repos\\testapp\\testapp1\\components\\account\\pages\\manage\\index.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B58208FD-31CD-48F3-8DB2-9E7BC4843D95}|TestApp1\\TestApp1.csproj|solutionrelative:testapp1\\components\\account\\pages\\manage\\index.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B58208FD-31CD-48F3-8DB2-9E7BC4843D95}|TestApp1\\TestApp1.csproj|c:\\users\\chadt\\source\\repos\\testapp\\testapp1\\components\\layout\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B58208FD-31CD-48F3-8DB2-9E7BC4843D95}|TestApp1\\TestApp1.csproj|solutionrelative:testapp1\\components\\layout\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B58208FD-31CD-48F3-8DB2-9E7BC4843D95}|TestApp1\\TestApp1.csproj|c:\\users\\chadt\\source\\repos\\testapp\\testapp1\\components\\account\\pages\\login.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B58208FD-31CD-48F3-8DB2-9E7BC4843D95}|TestApp1\\TestApp1.csproj|solutionrelative:testapp1\\components\\account\\pages\\login.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B58208FD-31CD-48F3-8DB2-9E7BC4843D95}|TestApp1\\TestApp1.csproj|c:\\users\\chadt\\source\\repos\\testapp\\testapp1\\data\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B58208FD-31CD-48F3-8DB2-9E7BC4843D95}|TestApp1\\TestApp1.csproj|solutionrelative:testapp1\\data\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{B58208FD-31CD-48F3-8DB2-9E7BC4843D95}|TestApp1\\TestApp1.csproj|c:\\users\\chadt\\source\\repos\\testapp\\testapp1\\components\\pages\\companies.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{B58208FD-31CD-48F3-8DB2-9E7BC4843D95}|TestApp1\\TestApp1.csproj|solutionrelative:testapp1\\components\\pages\\companies.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
@@ -13,10 +33,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{B58208FD-31CD-48F3-8DB2-9E7BC4843D95}|TestApp1\\TestApp1.csproj|c:\\users\\chadt\\source\\repos\\testapp\\testapp1\\companiestablesetup.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|CodeFrame",
       "RelativeMoniker": "D:0:0:{B58208FD-31CD-48F3-8DB2-9E7BC4843D95}|TestApp1\\TestApp1.csproj|solutionrelative:testapp1\\companiestablesetup.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|CodeFrame"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B58208FD-31CD-48F3-8DB2-9E7BC4843D95}|TestApp1\\TestApp1.csproj|c:\\users\\chadt\\source\\repos\\testapp\\testapp1\\companiestablesetup.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|ResultFrame",
-      "RelativeMoniker": "D:0:0:{B58208FD-31CD-48F3-8DB2-9E7BC4843D95}|TestApp1\\TestApp1.csproj|solutionrelative:testapp1\\companiestablesetup.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|ResultFrame"
     }
   ],
   "DocumentGroupContainers": [
@@ -35,19 +51,84 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "Auth.razor",
+              "DocumentMoniker": "C:\\Users\\chadt\\source\\repos\\TestApp\\TestApp1.Client\\Pages\\Auth.razor",
+              "RelativeDocumentMoniker": "TestApp1.Client\\Pages\\Auth.razor",
+              "ToolTip": "C:\\Users\\chadt\\source\\repos\\TestApp\\TestApp1.Client\\Pages\\Auth.razor",
+              "RelativeToolTip": "TestApp1.Client\\Pages\\Auth.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-05T19:28:30.899Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Index.razor",
+              "DocumentMoniker": "C:\\Users\\chadt\\source\\repos\\TestApp\\TestApp1\\Components\\Account\\Pages\\Manage\\Index.razor",
+              "RelativeDocumentMoniker": "TestApp1\\Components\\Account\\Pages\\Manage\\Index.razor",
+              "ToolTip": "C:\\Users\\chadt\\source\\repos\\TestApp\\TestApp1\\Components\\Account\\Pages\\Manage\\Index.razor",
+              "RelativeToolTip": "TestApp1\\Components\\Account\\Pages\\Manage\\Index.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-05T19:27:52.771Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "NavMenu.razor",
+              "DocumentMoniker": "C:\\Users\\chadt\\source\\repos\\TestApp\\TestApp1\\Components\\Layout\\NavMenu.razor",
+              "RelativeDocumentMoniker": "TestApp1\\Components\\Layout\\NavMenu.razor",
+              "ToolTip": "C:\\Users\\chadt\\source\\repos\\TestApp\\TestApp1\\Components\\Layout\\NavMenu.razor",
+              "RelativeToolTip": "TestApp1\\Components\\Layout\\NavMenu.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACEAAAAwAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-05T19:09:54.65Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Login.razor",
+              "DocumentMoniker": "C:\\Users\\chadt\\source\\repos\\TestApp\\TestApp1\\Components\\Account\\Pages\\Login.razor",
+              "RelativeDocumentMoniker": "TestApp1\\Components\\Account\\Pages\\Login.razor",
+              "ToolTip": "C:\\Users\\chadt\\source\\repos\\TestApp\\TestApp1\\Components\\Account\\Pages\\Login.razor",
+              "RelativeToolTip": "TestApp1\\Components\\Account\\Pages\\Login.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAD0AAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-05T18:38:02.061Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ApplicationUser.cs",
+              "DocumentMoniker": "C:\\Users\\chadt\\source\\repos\\TestApp\\TestApp1\\Data\\ApplicationUser.cs",
+              "RelativeDocumentMoniker": "TestApp1\\Data\\ApplicationUser.cs",
+              "ToolTip": "C:\\Users\\chadt\\source\\repos\\TestApp\\TestApp1\\Data\\ApplicationUser.cs",
+              "RelativeToolTip": "TestApp1\\Data\\ApplicationUser.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-05T18:03:34.989Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "Companies.razor",
               "DocumentMoniker": "C:\\Users\\chadt\\source\\repos\\TestApp\\TestApp1\\Components\\Pages\\Companies.razor",
               "RelativeDocumentMoniker": "TestApp1\\Components\\Pages\\Companies.razor",
               "ToolTip": "C:\\Users\\chadt\\source\\repos\\TestApp\\TestApp1\\Components\\Pages\\Companies.razor",
               "RelativeToolTip": "TestApp1\\Components\\Pages\\Companies.razor",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAEQAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABsAAAARAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-08-01T22:14:53.527Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 6,
               "Title": "CompaniesTableSetup.sql ",
               "DocumentMoniker": "C:\\Users\\chadt\\source\\repos\\TestApp\\TestApp1\\CompaniesTableSetup.sql",
               "RelativeDocumentMoniker": "TestApp1\\CompaniesTableSetup.sql",
